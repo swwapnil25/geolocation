@@ -1,19 +1,19 @@
 // geolocation
 
 // window.onload = geolocation();
-let x = document.getElementById('out');
+// let x = document.getElementById('out');
 
-function geolocation(){
-    if(navigator.geolocation){
-        navigator.geolocation.getCurrentPosition(showPosition)
-    }else{
-        x.innerText="Geo Not Supported"
-    }
-}
+// function geolocation(){
+//     if(navigator.geolocation){
+//         navigator.geolocation.getCurrentPosition(showPosition)
+//     }else{
+//         x.innerText="Geo Not Supported"
+//     }
+// }
 
-function showPosition(data){
-    console.log(data)
-}
+// function showPosition(data){
+//     console.log(data)
+// }
 
 
 
