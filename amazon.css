@@ -206,3 +206,11 @@ font-size: 22px;
 background-color: whitesmoke;
 cursor: pointer;
 }
+
+#weather-icon img{
+	width: 50px;
+    height: 45px;
+    margin: -12px;
+    margin-top: -10px;
+/*    margin-right: 45px; */
+}
