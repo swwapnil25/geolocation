@@ -207,10 +207,19 @@ background-color: whitesmoke;
 cursor: pointer;
 }
 
+
 #weather-icon img{
-	width: 50px;
-    height: 45px;
-    margin: -12px;
-    margin-top: -10px;
-/*    margin-right: 45px; */
+	float: right;
+    margin-top: -65%;
+    margin-right: -68%;
+    /* margin-right: 45px; */
+    width: 50px;
+}
+
+#weather-box {
+    float: right;
+    margin-right: 28px;
+    margin-top: 4px;
+    color: white;
+    font-size: 1rem;
 }
